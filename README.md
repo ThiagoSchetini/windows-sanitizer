@@ -7,7 +7,7 @@ This mod is made on the original ameliorated.info great code and we perceive the
 About Sanitizer:
 
 	we preserve more features like the new "Windows Explore" and the new "Menu" 
-	here you are encouraged to install a new, fresh and original activated windows with a original key and them made this changes
+	install a new and fresh windows with a original key and them made this changes
 	we do not try to delete all backdoors because windows is the backdoor
 	we do not use antivirus because windows is the virus
 	probably runs on all windows versions
