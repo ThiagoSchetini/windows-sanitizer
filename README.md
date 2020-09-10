@@ -149,8 +149,8 @@ To install, run as admin again:
 
 Install basic packages (always open terminal as admin):
 
-	freoffice	(manual download at https://softmaker-freeoffice.en.softonic.com/)
-	choco install vcredist-all	(Microsoft Visual C++ Runtime - all versions)
+	freoffice (manual download at https://softmaker-freeoffice.en.softonic.com/)
+	choco install vcredist-all (Microsoft Visual C++ Runtime - all versions)
 	choco install 7zip
 	choco install autohotkey (to use natural scroll on mouse)
 	choco install ccleaner
