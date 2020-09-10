@@ -4,26 +4,23 @@ This mod is made on the original ameliorated.info great code and we perceive the
 
 *All credits for them:* https://ameliorated.info
 
-About Sanitizer:
+### Important notes before using it:
 
-	we preserve more features like the new "Windows Explore" and the new "Menu" 
-	install a new and fresh windows with a original key and them made this changes
-	we do not try to delete all backdoors because windows is the backdoor
-	we do not use antivirus because windows is the virus
-	probably runs on all windows versions
+Install a new and fresh windows with a original key and them made this changes
 
-for newbies and enthusiasts:
+We preserve original features like the new "Windows Explore" and the new "Menu" 
+	
+We do not try to delete all backdoors because windows is the backdoor
 
-	you need to be admin of your windows
-	improves your windows for games and work
-	you will be forced to use a package manager (chocolatey) as Linux and Mac users do, and that's great!
-	warning: windows updates as you know will be completely destroyed FOREVER!
+Windows updates as you know will be completely destroyed, **forever**!
 
-You are advised: There is no guarantee, we are alone, we are one!
+There is no guarantee, we are alone, we are one!
 
-Nevermind: everything is a backdoor, starting with your Alexa toys and your smartphone =(
+Everything is a backdoor, starting with your Alexa toys and your smartphone =(
 
-### Let's sanitize this monster!
+Nevermind
+
+### Let's sanitize the monster!
 	
 After and only after a new and fresh Windows install, run as admin and wait it to finish:
 
