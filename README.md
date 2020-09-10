@@ -229,13 +229,13 @@ Chocolatey is very complete, see some examples:
 
 ### .NET basic framework
 
-download and run the last installer, if your windows has it updated the installer will stop:
+Download and run the last installer, if your windows has it updated the installer will stop:
 
 	https://dotnet.microsoft.com/download/dotnet-framework
 
 ### DirectX
 
-check it, probably your Windows 10 has the latest version, maybe 12, on your terminal do:
+Check it, probably your Windows 10 has the latest version, maybe 12, on your terminal do:
 
 	dxdiag.exe
 
@@ -267,18 +267,18 @@ Everything has DARK appearance, even Windows Explorer. It's time to darkenize:
 
 ### Open SSH Server (optional for developers)
 
-use the Git Bash as your terminal and follow this tutorial:
+Use the Git Bash as your terminal and follow this tutorial:
 
 	https://ameliorated.info/documentation.html#openssh
 
 ### Git & SSH keys (optional for developers)
 
-open git bash and config your git:
+Open git bash and config your git:
 
 	 git config --global user.email "yourname@gmail.com"
 	 git config --global user.name "Name LastName"
 
-generate the keys (public and private) to use on your github/bitbucket or another git:
+Generate the keys (public and private) to use on your github/bitbucket or another git:
 
 	 ssh-keygen -o -a 300 -t ed25519 -f ~/.ssh/id_ed25519 -C "YOUR-MACHINE-NAME"
 
@@ -287,46 +287,35 @@ start the ssh agent on background (on windows it closes after session) and add t
 	 eval "$(ssh-agent -s)"
 	 ssh-add ~/.ssh/id_ed25519
 
-copy the *public key value* and add it on your github/gitbucket or another git
+Copy the *public key value* and add it on your github/gitbucket or another git
 	
 	cat ~/.ssh/id_ed25519.pub
 
-create a Repository home and clone something to test it:
+Create a Repository home and clone something to test it:
 
 	mkdir ~/Repositories/github
 
 ### FINAL CLEAN
 
-clean everything on Firefox/Settings
+Run the software CCleaner and explore it, remove startup apps (discord, teams and spotify)
 
-run the software CCleaner and explore it, remove startup apps (discord, teams and spotify)
-
-clean the cache of chocolatey:
+Clean the cache of chocolatey:
 
 	C:\Users\YOURUSER\AppData\Local\Temp\chocolatey
 
-finally run a trim on your SSD (complete with zeros not used part):
+Finally run a trim on your SSD (complete with zeros not used part):
 	
 	Windows Explorer, right click on "C:(Windows)", then: Properties/Tools/Optimize/Optimize
-	*change the frequency to weekly (only if you have a SSD)
 
 ### TODO Windows Updates
 
-Identify the required KB number updates in the Windows 10 Update History:
+Identify the required KB number updates in the Windows 10 Update History https://support.microsoft.com/en-us/help/4099479
 
-	https://support.microsoft.com/en-us/help/4099479
+Search and Find the Updates Files like "KB4574727" http://www.catalog.update.microsoft.com/Home.aspx
 
-Search and Find the Updates Files like "KB4574727" on:
+Open downloaded .msu file, double click and install.
 
-	http://www.catalog.update.microsoft.com/Home.aspx
-
-TODO, test the Update
-
-	check the downloaded .msu file, double click and install it!
-
-TODO is there any utility from chocolatey?
-
-	https://chocolatey.org/packages/chocolatey-windowsupdate.extension
+Is there any utility from chocolatey? https://chocolatey.org/packages/chocolatey-windowsupdate.extension
 
 ### CREDITS
 
