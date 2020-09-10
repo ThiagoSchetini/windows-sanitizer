@@ -1,8 +1,8 @@
 # Windows Sanitizer
 
-this mod is made on the original ameliorated.info great code and we perceive their efforts to remove all windows backdoors
-visit them and try their ready mod Windows and skip all this steps, or check our proposal
-all credits for them: https://ameliorated.info
+This mod is made on the original ameliorated.info great code and we perceive their efforts to remove all windows backdoors. Visit them and try their ready mod Windows and skip all this steps.
+
+*All credits for them:* https://ameliorated.info
 
 About Sanitizer:
 
@@ -54,7 +54,7 @@ Let's start on.... C:/Windows:
 	11 click "OK"
 	12 now look for a checkbox "Replace owner on subcontainers and objects" and check it!
 	13 click "Apply"
-	14 wait for a successfull message (maybe there appears some warning, click OK on the message, there is no problem)
+	14 wait for a successfull message (maybe appears some warning, click OK, nevermind...)
 	15 click "OK" on the entire box
 	16 click "Advanced" again
 	17 search for the "Administrators(YOUR-MACHINE-NAME)"
@@ -68,19 +68,19 @@ how to restore the original permissions and owners:
 
 	repeat steps 01 to 04 
 	jump and execute steps 19 and 20
-	remove "Full control" checkbox, then check like the table below:
-	____________________________________________________________________________________________________________________			
-	|folder					|owner				|administrators permissions												|
-	|"Windows"				|"TrustedInstaller"	|"Read & execute" + "List folder contents" + "Read"						|
+	remove "Full control" checkbox, then check others checkbox like this beautiful "table" below:
 	____________________________________________________________________________________________________________________
-	|folder					|owner				|administrators Permissions												|
-	|"Program Files"		|"TrustedInstaller"	|"Read & execute" + "List folder contents" + "Read" + "Modify" + "Write"|
+	|folder|owner|administrators permissions
+	|"Windows"|"NT Service\TrustedInstaller"|"Read & execute" + "List folder contents" + "Read"
 	____________________________________________________________________________________________________________________
-	|folder					|owner				|administrators permissions												|
-	|"Program Files (x86)"	|"TrustedInstaller"	|"Read & execute" + "List folder contents" + "Read" + "Modify" + "Write"|
+	|folder|owner|administrators Permissions
+	|"Program Files"|"NT Service\TrustedInstaller"|"Read & execute" + "List folder contents" + "Read" + "Modify" + "Write"
 	____________________________________________________________________________________________________________________
-	|folder					|owner				|administrators permissions												|
-	|"Program Data"			|"SYSTEM"			|"Read & execute" + "List folder contents" + "Read" + "Modify" + "Write"|
+	|folder|owner|administrators permissions
+	|"Program Files (x86)"|"NT Service\TrustedInstaller"|"Read & execute" + "List folder contents" + "Read" + "Modify" + "Write"
+	____________________________________________________________________________________________________________________
+	|folder|owner|administrators permissions
+	|"Program Data"|"SYSTEM"|"Read & execute" + "List folder contents" + "Read" + "Modify" + "Write"
 	____________________________________________________________________________________________________________________
 
 	then "Apply"
@@ -153,16 +153,16 @@ run as admin again:
 
 install basic packages (always open terminal as admin):
 
-	(manual download) freoffice				(download on https://softmaker-freeoffice.en.softonic.com/)
-	choco install vcredist-all				(Microsoft Visual C++ Runtime - all versions)
+	freoffice	(manual download at https://softmaker-freeoffice.en.softonic.com/)
+	choco install vcredist-all	(Microsoft Visual C++ Runtime - all versions)
 	choco install 7zip
-	choco install autohotkey				(to use natural scroll on mouse)
+	choco install autohotkey (to use natural scroll on mouse)
 	choco install ccleaner
 	choco install firefox
 	choco install winamp
 	choco install spotify
-	choco install jpegview					(to see all image formats)
-	choco install vlc 						(video player)
+	choco install jpegview (to see all image formats)
+	choco install vlc (video player)
 	choco install qalculate
 
 internet/comunication:
@@ -179,26 +179,26 @@ install NVIDIA driver (if you have a card/chip):
 
 for gamers and enthusiasts:
 	
-	choco install performancetest			(the passmark test)
-	choco install superposition-benchmark	(Unreal engine test and benchmark for GPU's/Games)
-	choco install nvidia-geforce-now		(streamers)
-	choco install hwmonitor					(monitor temps of our hardware)
+	choco install performancetest (the passmark test)
+	choco install superposition-benchmark (Unreal engine test and benchmark for GPU's/Games)
+	choco install nvidia-geforce-now (streamers)
+	choco install hwmonitor (monitor temps of our hardware)
 	choco install rufus
 	choco install cpu-z
 	choco install gpu-z
-	choco install partitionmasterfree		(if you have/buy a license is better)
+	choco install partitionmasterfree (if you have/buy a license is better)
 
 for developers:
 
-	choco install git						(use the Git Bash as your terminal after this install!)
+	choco install git (use the Git Bash as your terminal after this install!)
 	choco install vim					
 	choco install wget
 	choco install sublimetext3
 	choco install docker-desktop
 	choco install openjdk11
 	choco install maven
-	(manual install) scala 					(https://www.scala-lang.org/download/)
-	(manual install) sbt 					(https://www.scala-sbt.org/download.html)									
+	scala (manual download at https://www.scala-lang.org/download/)
+	sbt (manual download at https://www.scala-sbt.org/download.html)									
 	choco install python
 	choco install pypy3
 
@@ -225,9 +225,9 @@ InteliJ for java/scala/JVM development:
 
 Chocolatey is very complete, see some examples:
 
-	choco install samsung-magician 			(Samsung ssd/Nvme)
-	choco install logitechgaming			(Logitech mouse or keyboard)
-	choco install logitech-webcam-software	(Logitech webcam)
+	choco install samsung-magician (Samsung ssd/Nvme)
+	choco install logitechgaming (Logitech mouse or keyboard)
+	choco install logitech-webcam-software (Logitech webcam)
 
 ### .NET basic framework
 
@@ -248,9 +248,9 @@ optimize performance/battery and options for the plan(s) that you need, on termi
 	powercfg.cpl
 	select and adjust the options to the plan(s) that you are gonna use
 	hint: explore all options!
-	hint: on "Processor power management" put minimum to 5% and maximum to 100% to get all steps of your cpu
+	hint: on "Processor power management" put minimum to 5% and maximum to 100% to get CPU steps
 
-remove unused power plans
+remove unused power plans:
 
 	powercfg.exe /L
 	get the "GUID"
