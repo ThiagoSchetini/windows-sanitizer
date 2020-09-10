@@ -287,7 +287,7 @@ start the ssh agent on background (on windows it closes after session) and add t
 	 eval "$(ssh-agent -s)"
 	 ssh-add ~/.ssh/id_ed25519
 
-Copy the *public key value* and add it on your github/gitbucket or another git
+Copy the *public key value* and add it on your github/gitbucket or another git:
 	
 	cat ~/.ssh/id_ed25519.pub
 
@@ -297,7 +297,7 @@ Create a Repository home and clone something to test it:
 
 ### FINAL CLEAN
 
-Run the software CCleaner and explore it, remove startup apps (discord, teams and spotify)
+Run the software CCleaner and explore it, remove startup apps (discord, teams and spotify).
 
 Clean the cache of chocolatey:
 
